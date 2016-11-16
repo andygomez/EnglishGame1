@@ -83,7 +83,8 @@
     </header>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    
+      <section id="portfolio"> 
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -91,18 +92,9 @@
                     <hr class="star-primary">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
+           <div class="row">
+           
+                <div class="col-sm-offset-3 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -112,19 +104,20 @@
                         <img src="img/portfolio/circus.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-offset-3 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
+                       <center> <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
-                        </div>
+                        </div></center>
                         <img src="img/portfolio/game.png" class="img-responsive" alt="">
                     </a>
                 </div>
-            </div>
+              
+            </div> 
         </div>
-    </section>
+  </section>
 
     <!-- About Section -->
     <section class="success" id="about">
