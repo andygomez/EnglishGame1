@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','UnicoController@index');
+Route::post('/question','UnicoController@question');
+Route::post('/answer','UnicoController@answer');
+
+

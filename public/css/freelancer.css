@@ -444,6 +444,9 @@ fieldset[disabled] .btn-success.active {
 .scroll-top .btn:focus {
   outline: none;
 }
+.portfolio-modal{
+  padding-right: 0px !important;
+}
 .portfolio-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
@@ -452,7 +455,6 @@ fieldset[disabled] .btn-success.active {
   border: none;
   min-height: 100%;
   padding: 100px 0;
-  text-align: center;
 }
 .portfolio-modal .modal-content h2 {
   margin: 0;
@@ -503,3 +505,24 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+
+.gameMode{
+  cursor: pointer;
+}
+
+.gameMode:hover{
+  color: yellow;
+}
+
+input{
+  width: 200px;
+}
+.radio label input[type="radio"]{
+    margin-top: 25px;
+    float: left;
+    position: initial;
+    margin-left: -90px;
+    margin-right: -80px;
+}
+.radio label h3{ float: left; }
+
